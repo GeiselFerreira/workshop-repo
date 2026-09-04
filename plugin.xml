@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         id="cordova-plugin-carrier-name"
-        version="1.0.0">
+        version="1.0.1">
 
     <name>CarrierName</name>
 
@@ -16,6 +16,16 @@
     </js-module>
 
     <platform name="android">
+
+        <config-file target="config.xml" parent="/*">
+
+            <feature name="CarrierName">
+                <param
+                    name="android-package"
+                    value="com.carriername.plugin.CarrierName" />
+            </feature>
+
+        </config-file>
 
         <source-file
             src="src/android/CarrierName.java"
