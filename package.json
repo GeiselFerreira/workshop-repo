@@ -1,0 +1,19 @@
+{
+  "name": "cordova-plugin-carrier-name",
+  "version": "1.0.0",
+  "description": "Native Android Cordova plugin to retrieve the mobile network operator name.",
+  "cordova": {
+    "id": "cordova-plugin-carrier-name",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "cordova",
+    "android",
+    "carrier",
+    "telephony",
+    "operator"
+  ],
+  "license": "MIT"
+}
